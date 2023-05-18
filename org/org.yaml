@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Cloud
+  description: Cloud
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: sre@ops.team
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: backstage
+  children: [opsteam]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Development
+  description: development
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: development@ops.team
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: backstage
+  children: [opsteam]
