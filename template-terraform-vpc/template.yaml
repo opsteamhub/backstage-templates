@@ -3,14 +3,14 @@ kind: Template
 metadata:
   name: vpc-template
   title: VPC Template
-  description: Create a microservice powered with Nodejs
+  description: Create VPC
   tags:
     - aws
     - vpc
     - terraform
 spec:
   owner: rafael.julio@ops.team
-  type: microservices
+  type: vpc
   parameters:
     - title: Provide some simple information
       required:
