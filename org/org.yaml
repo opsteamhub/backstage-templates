@@ -1,27 +1,24 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: Cloud
-  description: Cloud
+  name: Ops Team
+  description: The Ops Team organization
+  links:
+    - url: https://ops.team/
+      title: Website
 spec:
-  type: team
+  type: organization
   profile:
-    # Intentional no displayName for testing
-    email: sre@ops.team
-    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
-  parent: backstage
-  children: [opsteam]
+    displayName: Ops Team
+    email: info@ops.team
+    picture: https://ops.team/assets/img/logo/logo-def3.svg
+  children: [infrastructure]
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Group
+kind: Location
 metadata:
-  name: Development
-  description: development
+  name: groups
+  description: A collection of all woba Groups
 spec:
-  type: team
-  profile:
-    # Intentional no displayName for testing
-    email: development@ops.team
-    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
-  parent: backstage
-  children: [opsteam]
+  targets:
+    - ./groups.yaml
