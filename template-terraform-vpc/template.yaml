@@ -36,7 +36,7 @@ spec:
             enum:
               - Anima
               - Woba
-              - Ops Team
+              - OpsTeam
           uniqueItems: true
 
     - title: Choose a location
