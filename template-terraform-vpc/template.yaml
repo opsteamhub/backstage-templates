@@ -34,9 +34,9 @@ spec:
           items:
             type: string
             enum:
-              - Anima
-              - Woba
-              - OpsTeam
+              - anima
+              - woba
+              - opsteam
           uniqueItems: true
           ui:widget: checkboxes
 
