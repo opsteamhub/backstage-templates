@@ -28,16 +28,13 @@ spec:
 
     - title: Customers
       properties:
-        name:
+        customers:
           title: Select Customers
-          type: array
-          items:
-            type: string
-            enum:
-              - anima
-              - woba
-              - opsteam
-          uniqueItems: true
+          type: string
+          enum:
+            - anima
+            - woba
+            - opsteam
 
     - title: Choose a location
       required:
