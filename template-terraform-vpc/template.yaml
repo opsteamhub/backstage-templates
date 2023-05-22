@@ -16,7 +16,7 @@ spec:
   parameters:
     - title: Fill in some steps
       required:
-        - vpc name
+        - VPC Name
       properties:
         name:
           title: VPC Name
