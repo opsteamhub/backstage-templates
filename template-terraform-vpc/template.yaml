@@ -19,7 +19,7 @@ spec:
         - vpc name
       properties:
         name:
-          title: Name
+          title: VPC Name
           type: string
           description: Unique name of the component
           ui:autofocus: true
