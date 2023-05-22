@@ -25,29 +25,6 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
-    - title: Fill in some steps
-      properties:
-        volume_type:
-          title: Volume Type
-          type: string
-          description: The volume type to be used
-          default: gp2
-          enum:
-            - gp2
-            - gp3
-            - io1
-            - io2
-            - sc1
-            - st1
-            - standard
-          enumNames:
-            - 'General Purpose SSD (gp2)'
-            - 'General Purpose SSD (gp3)'
-            - 'Provisioned IOPS (io1)'
-            - 'Provisioned IOPS (io2)'
-            - 'Cold HDD (sc1)'
-            - 'Throughput Optimized HDD (st1)'
-            - 'Magnetic (standard)'
 
     - title: Customers
       properties:
@@ -58,6 +35,8 @@ spec:
             - anima
             - woba
             - opsteam
+            - datajuri
+            - maxmilhas
 
     - title: Choose a location
       required:
