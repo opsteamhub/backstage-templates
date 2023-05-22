@@ -38,6 +38,7 @@ spec:
               - Woba
               - OpsTeam
           uniqueItems: true
+          ui:widget: checkboxes
 
     - title: Choose a location
       required:
