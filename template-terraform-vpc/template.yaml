@@ -19,12 +19,26 @@ spec:
         - name
       properties:
         name:
-          title: VPC Name
+          title: Name
           type: string
           description: Unique name of the vpc
           ui:autofocus: true
           ui:options:
             rows: 5
+
+    - title: Customers
+      properties:
+        name:
+          title: Select Customers
+          type: array
+          items:
+            type: string
+            enum:
+              - Anima
+              - Woba
+              - Ops Team
+          uniqueItems: true
+
     - title: Choose a location
       required:
         - repoUrl
