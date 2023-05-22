@@ -13,12 +13,3 @@ spec:
     email: info@ops.team
     picture: https://ops.team/assets/img/logo/logo-def3.svg
   children: [infrastructure]
----
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: groups
-  description: A collection of all woba Groups
-spec:
-  targets:
-    - ./groups.yaml
