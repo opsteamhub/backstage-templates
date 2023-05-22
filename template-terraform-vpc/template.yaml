@@ -6,7 +6,7 @@ metadata:
   title: Create VPC
   description: template create vpc on AWS
   tags:
-    - AWS
+    - aws 
     - vpc
     - terraform
 spec:
