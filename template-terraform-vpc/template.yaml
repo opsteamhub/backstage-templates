@@ -38,7 +38,6 @@ spec:
               - woba
               - opsteam
           uniqueItems: true
-          ui:widget: checkboxes
 
     - title: Choose a location
       required:
